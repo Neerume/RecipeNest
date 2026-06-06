@@ -1,0 +1,181 @@
+/* ManageChef Component Styles */
+.manage-chef {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  overflow-x: auto;
+}
+
+.manage-chef-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.manage-chef-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #dc6e6e; /* Soft Pink Color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 1px solid #dee2e6;
+  color: #333;
+  font-size: 16px;
+}
+
+th {
+  background-color: #f38f8f; /* Soft Pink Color */
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e2e6ea;
+  cursor: pointer;
+}
+
+.block-btn {
+  background-color: #f4bcbc; /* Soft Pink Color */
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.block-btn:hover {
+  background-color: #e3a1a1; /* Slightly darker pink for hover effect */
+}
+
+.block-btn:active {
+  transform: scale(0.98);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .manage-chef {
+    padding: 15px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  th, td {
+    padding: 10px 12px;
+  }
+
+  .block-btn {
+    padding: 6px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .manage-chef h2 {
+    font-size: 22px;
+  }
+
+  table {
+    font-size: 12px;
+  }
+
+  th, td {
+    padding: 8px 10px;
+  }
+
+  .block-btn {
+    padding: 6px 10px;
+  }
+}
+
+/* Search Input Styling */
+.search-input {
+  padding: 8px 15px;
+  font-size: 16px;
+  border: 2px solid #f4bcbc; /* Soft Pink Color */
+  border-radius: 4px;
+  margin-top: 20px;
+  width: 250px;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Blue color on focus */
+  outline: none;
+}
+
+/* ManageChef.css */
+
+/* Modal Styles */
+.block-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.modal-actions {
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #f44336;
+  color: white;
+}

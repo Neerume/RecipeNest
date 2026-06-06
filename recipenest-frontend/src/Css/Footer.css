@@ -1,0 +1,33 @@
+.footerComponent footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.footerComponent footer p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.footerComponent footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.footerComponent footer a:hover {
+  color: #F08282; /* Light red hover effect */
+}

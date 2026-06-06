@@ -1,0 +1,47 @@
+.view-blocked-user {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.view-blocked-user h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.view-blocked-user table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.view-blocked-user th,
+.view-blocked-user td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.view-blocked-user th {
+  background-color: #e05b5b;
+  font-weight: 600;
+}
+
+.view-blocked-user tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.view-blocked-user button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-blocked-user button:hover {
+  background-color: #218838;
+}

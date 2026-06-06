@@ -1,0 +1,65 @@
+.navbarComponent .navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  width: 100%;
+  position: fixed; /* 🔥 Keeps navbar fixed */
+  top: 0; /* 🔥 Sticks to the top */
+  left: 0;
+  z-index: 1000; /* Keeps navbar above other elements */
+}
+
+.navbarComponent .navbar + * {
+  margin-top: 80px; /* Adjust based on navbar height */
+}
+
+.navbarComponent .navlinkscenter ul {
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  margin-top: 0px;
+}
+
+.navbarComponent .navlinkscenter ul li {
+  padding: 20px;
+}
+
+.navbarComponent .navlinksright ul {
+  display: flex;
+  cursor: pointer;
+  list-style: none;
+  margin-top: 0px;
+}
+
+.navbarComponent .navlinksright ul li {
+  padding: 20px;
+}
+
+.navbarComponent .navlinksright ul li a,
+.navbarComponent .navlinkscenter ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block; 
+  font-size: 18px; /* Define the font size */
+  font-family: 'Andika', sans-serif;
+}
+
+.navbarComponent .navlinksright ul li a:hover,
+.navbarComponent .navlinkscenter ul li a:hover {
+  border-radius: 20px;
+  background-color: rgb(240, 130, 130);
+  padding: 3px 20px 3px 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbarComponent .navlinksright {
+  position: relative;
+  z-index: 10;
+}
+
+.navbarComponent .logo img {
+  padding-left: 10px;
+  height: 80px;
+  width: 95px;
+  border-radius: 500px;
+}

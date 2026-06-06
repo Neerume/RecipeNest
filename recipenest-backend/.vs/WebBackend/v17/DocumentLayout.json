@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\WebBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\controllers\\blockedusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:controllers\\blockedusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\blockeduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\blockeduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|i:\\webbackend\\models\\blockeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8C2D52E-1A2B-46F8-82F6-AC34C3E7875A}|WebBackend.csproj|solutionrelative:models\\blockeduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "I:\\WebBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T15:51:44.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateUser.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateUser.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\UpdateUser.cs",
+              "RelativeToolTip": "Models\\UpdateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:22:30.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T17:15:45.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "Models\\Review.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\Review.cs",
+              "RelativeToolTip": "Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T13:40:36.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "Models\\Recipe.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\Recipe.cs",
+              "RelativeToolTip": "Models\\Recipe.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:55:46.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDBContext.cs",
+              "DocumentMoniker": "I:\\WebBackend\\MyDBContext.cs",
+              "RelativeDocumentMoniker": "MyDBContext.cs",
+              "ToolTip": "I:\\WebBackend\\MyDBContext.cs",
+              "RelativeToolTip": "MyDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:50:50.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "I:\\WebBackend\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:50:35.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecipeController.cs",
+              "ToolTip": "I:\\WebBackend\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "Controllers\\RecipeController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:52:39.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BlockedUserController.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Controllers\\BlockedUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlockedUserController.cs",
+              "ToolTip": "I:\\WebBackend\\Controllers\\BlockedUserController.cs",
+              "RelativeToolTip": "Controllers\\BlockedUserController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwEsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:52:31.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "I:\\WebBackend\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:52:34.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BlockedUserDto.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\BlockedUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\BlockedUserDto.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\BlockedUserDto.cs",
+              "RelativeToolTip": "Models\\BlockedUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:06:57.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlockedUser.cs",
+              "DocumentMoniker": "I:\\WebBackend\\Models\\BlockedUser.cs",
+              "RelativeDocumentMoniker": "Models\\BlockedUser.cs",
+              "ToolTip": "I:\\WebBackend\\Models\\BlockedUser.cs",
+              "RelativeToolTip": "Models\\BlockedUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:50:32.117Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

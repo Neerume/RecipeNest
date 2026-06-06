@@ -1,0 +1,103 @@
+.add-recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: safe;
+  margin-left: 50px;
+  background-color: #fff7f4;
+  padding: 2rem;
+  font-family: 'Andika', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  position: relative;
+}
+
+.add-recipe h2 {
+  background-color: #f4bcbc;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  margin-top: -80px;
+  margin-bottom: 0.5rem;
+  width: 250px;
+  margin-left: -7%;
+}
+
+.add-recipe h3 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+  margin-left: -7%;
+  margin-bottom: 8%;
+}
+
+.add-recipe h1 {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  font-weight: 600;
+  margin-left: 50px;
+  font-family: 'Andika', sans-serif;
+}
+
+.add-recipe form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border: 2px solid #f4bcbc;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.add-recipe label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+.add-recipe input,
+.add-recipe textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #f4bcbc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  resize: none;
+  outline: none;
+  color: #333;
+}
+
+.add-recipe button[type="submit"] {
+  background-color: #f77f7f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-recipe button[type="submit"]:hover {
+  background-color: #ff5757;
+}
+
+/* Chef Image Section */
+.add-recipe .Chef {
+  position: absolute;
+  right: -24%;
+  bottom: 5%;
+  top: 10%;
+  z-index: 1;
+  margin-left: 1000px;
+}
+
+.add-recipe .Chef img {
+  width: 750px;
+  height: auto;
+}

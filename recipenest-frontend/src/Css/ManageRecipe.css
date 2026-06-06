@@ -1,0 +1,119 @@
+.manage-recipe {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.manage-recipe h2 {
+  margin-bottom: 20px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.manage-recipe table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f4bcbc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-recipe th,
+.manage-recipe td {
+  padding: 15px;
+  text-align: left;
+}
+
+.manage-recipe th {
+  background-color: #f1a1a1;
+  color: white;
+}
+
+.manage-recipe td {
+  background-color: #fff;
+  font-size: 16px;
+}
+
+.manage-recipe tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.manage-recipe tr:hover {
+  background-color: #f1d1d1;
+}
+
+.manage-recipe button {
+
+  background-color: #f44d5c;
+  color: white;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.manage-recipe button:hover {
+  background-color: #e03d4d;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.manage-recipe button:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 3px rgba(72, 124, 252, 0.6);
+}
+
+.manage-recipe button + button {
+  margin-left: 15px;
+  background-color: #4caf50;
+}
+
+.manage-recipe button + button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.manage-recipe a {
+  text-decoration: none;
+  color: white;
+  background-color: #b9596f;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.manage-recipe a:hover {
+  background-color: #0b7dda;
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.manage-recipe a:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px 3px rgba(72, 124, 252, 0.6);
+}
+
+.manage-recipe p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .manage-recipe table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .manage-recipe th,
+  .manage-recipe td {
+    padding: 10px;
+  }
+}

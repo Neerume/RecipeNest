@@ -1,0 +1,139 @@
+/* Container for the entire profile section */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f1f1; /* Soft light background */
+  padding: 20px;
+}
+
+/* Profile card styling */
+.profile-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+/* Profile photo container */
+.profile-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  border: 5px solid #f4bcbc; /* Border matching the color */
+  background-color: #f4bcbc; /* Soft pinkish background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.no-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4bcbc; /* Soft pink */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/* Profile details section */
+.profile-details {
+  width: 100%;
+}
+
+/* Heading for name */
+.profile-details h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333; /* Dark gray text for better contrast */
+  transition: color 0.3s ease;
+}
+
+.profile-details h2:hover {
+  color: #f4bcbc; /* Change name color on hover to match the theme */
+}
+
+/* Details styling */
+.profile-details p {
+  font-size: 16px;
+  margin: 12px 0;
+  color: #666; /* Softer text color for details */
+}
+
+.profile-details p strong {
+  font-weight: bold;
+  color: #333; /* Dark gray for the labels */
+}
+
+/* Bio styling */
+.bio {
+  font-style: italic;
+  color: #777;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Buttons or Links Styling */
+.profile-details a {
+  text-decoration: none;
+  color: #f4bcbc;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: color 0.3s ease;
+}
+
+.profile-details a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .profile-card {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .profile-photo {
+    width: 110px;
+    height: 110px;
+  }
+
+  .profile-details h2 {
+    font-size: 22px;
+  }
+
+  .profile-details p {
+    font-size: 14px;
+  }
+
+  .bio {
+    font-size: 13px;
+  }
+}

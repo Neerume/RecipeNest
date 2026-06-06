@@ -1,0 +1,115 @@
+.profile {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 35px;
+  background: linear-gradient(145deg, #fdf0f0, #f4bcbc);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: 2px solid #e89a9a;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile div {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.profile strong {
+  display: inline-block;
+  width: 120px;
+  color: #444;
+  font-weight: 600;
+}
+
+.profile span {
+  cursor: pointer;
+  padding: 4px 6px;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+}
+
+.profile span:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile input[type="text"],
+.profile input[type="email"],
+.profile textarea {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 15px;
+  border: 1px solid #e89a9a;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.profile input[type="text"]:focus,
+.profile input[type="email"]:focus,
+.profile textarea:focus {
+  border-color: #ff4b5c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 75, 92, 0.4);
+}
+
+.profile textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+  margin-top: 8px;
+}
+
+.profile input[type="file"] {
+  margin-top: 10px;
+  font-family: inherit;
+}
+
+.profile img {
+  display: block;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: 2px solid #e89a9a;
+  max-width: 120px;
+  height: auto;
+}
+
+.profile button {
+  background-color: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: inherit;
+  display: block;
+  margin: 30px auto 0;
+}
+
+.profile button:hover {
+  background-color: #d83c47;
+  transform: translateY(-2px);
+}

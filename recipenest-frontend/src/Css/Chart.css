@@ -1,0 +1,116 @@
+ViewChart.css
+
+/* Container for the entire recipe summary */
+.recipe-summary {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fce3e3; /* Light pink background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Title Styling */
+.recipe-summary h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e2b6b6; /* Soft pink color for the title */
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+/* Summary card container */
+.summary-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-left: 5px solid #e2b6b6; /* Add a border with the soft pink color */
+}
+
+/* Hover effects on each card */
+.summary-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling for the recipe name */
+.summary-card h3 {
+  font-size: 1.6rem;
+  color: #e2b6b6; /* Soft pink for recipe name */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Icons */
+.summary-card h3::before {
+  content: "🍽️ ";
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+/* Like and comment details */
+.summary-card p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.summary-card p span {
+  font-weight: bold;
+  color: #e2b6b6; /* Soft pink color for total likes/comments */
+}
+
+/* Loading and No Recipes Found message */
+.recipe-summary p {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #888;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .recipe-summary {
+    padding: 15px;
+  }
+
+  .summary-card {
+    padding: 15px;
+  }
+
+  .recipe-summary h2 {
+    font-size: 1.5rem;
+  }
+
+  .summary-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .summary-card p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .summary-card {
+    padding: 10px;
+  }
+
+  .recipe-summary h2 {
+    font-size: 1.3rem;
+  }
+
+  .summary-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .summary-card p {
+    font-size: 0.9rem;
+  }
+}

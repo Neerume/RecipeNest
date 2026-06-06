@@ -1,0 +1,167 @@
+.loginComponent {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf9f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.loginComponent .login-container {
+  display: flex;
+  width: 800px;
+  background-color: #f8d8d8;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section (Welcome) */
+.loginComponent .left-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f4bcbc;
+  border-radius: 20px 0 0 20px;
+  padding: 40px;
+}
+
+.loginComponent .left-section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Icons */
+.loginComponent .fork-icon img {
+  width: 80px;
+  margin: 20px 0;
+}
+
+/* Register Link */
+.loginComponent .register-link {
+  font-weight: bold;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.loginComponent .register-link:hover {
+  color: #e57373;
+}
+
+/* Right Section (Login) */
+.loginComponent .right-section {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.loginComponent .right-section h2 {
+  font-size: 1.8rem;
+}
+
+/* Input Fields */
+.loginComponent .icon {
+  display: flex;
+  align-items: center;
+  background-color: #f4bcbc;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 15px 0;
+}
+
+.loginComponent .input-icon {
+  color: black;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.loginComponent .input-field {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: black;
+}
+
+/* Forgot Password */
+.loginComponent .forgot-password {
+  display: block;
+  text-align: right;
+  font-size: 0.9rem;
+  color: black;
+  text-decoration: none;
+}
+
+.loginComponent .forgot-password:hover {
+  color: #e57373;
+}
+
+/* Login Button */
+.loginComponent .login-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e57373;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.loginComponent .login-button:hover {
+  background-color: #d45b5b;
+}
+
+/* Continue with Google & Facebook */
+.loginComponent .continue-text {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.loginComponent .social-login {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.loginComponent .social-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.loginComponent .facebook-icon {
+  color: #1877F2;
+}
+
+.loginComponent .google-icon {
+  color: #DB4437;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .loginComponent .login-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .loginComponent .left-section {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .loginComponent .right-section {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+  }
+}

@@ -1,0 +1,103 @@
+.update-recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  background-color: #fff7f4;
+  padding: 2rem;
+  font-family: 'Andika', sans-serif;
+  color: #333;
+  min-height: 100vh;
+  position: relative;
+}
+
+.update-recipe-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  margin-left: 100px;
+  font-family: 'Andika', sans-serif;
+  border-radius: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.update-recipe-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  border: 2px solid #f4bcbc;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  padding: 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  z-index: 2;
+}
+
+.update-recipe-container label {
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+.update-recipe-container input,
+.update-recipe-container textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #f4bcbc;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  resize: none;
+  outline: none;
+  color: #333;
+}
+
+.update-recipe-container button[type="submit"] {
+  background-color: #f77f7f;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.update-recipe-container button[type="submit"]:hover {
+  background-color: #ff5757;
+}
+
+/* Chef Image */
+.update-recipe-container .Chef {
+  position: absolute;
+  right: -24%;
+  top: 10%;
+  z-index: 1;
+  margin-left: 1000px;
+}
+
+.update-recipe-container .Chef img {
+  width: 750px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .update-recipe-container {
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .update-recipe-container form {
+    width: 90%;
+  }
+
+  .update-recipe-container .Chef img {
+    width: 100%;
+    position: static;
+    margin: 1rem 0;
+  }
+}
