@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaUser, FaLock, FaFacebook } from "react-icons/fa"; // import icons
 import { FcGoogle } from "react-icons/fc"; // import google icon
-import "../css/login.css"; // import css file for login styles
+import "../Css/login.css"; // import css file for login styles
 import axios from "../api/axios";
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import { ToastContainer, toast } from 'react-toastify'; // import Toastify
