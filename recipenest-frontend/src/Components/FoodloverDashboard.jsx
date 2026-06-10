@@ -4,8 +4,8 @@ import { FaUser } from "react-icons/fa";
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import axios from '../api/axios';
 import RecipeCard from "./RecipeCard";
-import '../Css/FoodLover.css';
-import foodlover from '../pictures/food lover.jpg';
+import '../Css/Foodlover.css';
+import foodlover from '../pictures/food-lover.jpg';
 
 const FoodLoverDashboard = () => {
   const location = useLocation();
